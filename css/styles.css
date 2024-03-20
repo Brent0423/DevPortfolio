@@ -298,3 +298,27 @@ body {
 #contact h2 {
     font-size: 2.5em; /* Adjusted for optimal header visibility without overwhelming the page */
 }
+#contact-info {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    color: #FFF;
+    z-index: 10000;
+    background-color: transparent; /* Transparent background */
+    padding: 20px; /* Luxurious padding for emphasis */
+    border-radius: 5px; /* Soft rounded corners for a modern look */
+    font-size: 25px; /* Elegant font size */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+}
+
+#phone:before {
+    content: "\f095"; /* FontAwesome phone icon */
+    font-family: FontAwesome;
+    padding-right: 10px;
+}
+
+#email:before {
+    content: "\f0e0"; /* FontAwesome envelope icon */
+    font-family: FontAwesome;
+    padding-right: 10px;
+}
