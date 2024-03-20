@@ -98,3 +98,15 @@
     });
 
 })(jQuery);
+
+window.addEventListener('scroll', function() {
+    var mainImage = document.querySelector('img[src*="lead-bg.jpg"]');
+    var mainImageHeight = mainImage.offsetHeight;
+    var contactInfo = document.getElementById('contact-info');
+
+    if (window.scrollY > mainImageHeight) {
+        contactInfo.classList.add('black-text');
+    } else {
+        contactInfo.classList.remove('black-text');
+    }
+});
