@@ -660,6 +660,12 @@ footer {
     transform: translateY(-50%);
     margin-left: 300px;
     padding: 15px;
+    p {
+        color: $text;
+        margin: 0 0 15px 0;
+        font-size: 0.5em;
+        text-align: justify; // Justify the paragraph text
+        width: 100%; // Ensure the paragraph uses the full width of its container
 
     h3 {
         font-size: 1.5em;
