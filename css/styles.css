@@ -350,7 +350,7 @@ body {
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Black outline around letters */
     z-index: 10000;
     padding: 20px; /* Luxurious padding for emphasis */
-    font-size: 25px; /* Elegant font size */
+    font-size: 30px; /* Elegant font size */
     border: none;
 }
 
