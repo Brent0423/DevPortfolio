@@ -310,9 +310,16 @@ body {
     border: none;
 }
 
-#phone:before,
-#email:before {
+#phone:before {
     content: "\f095"; /* FontAwesome phone icon */
+    font-family: FontAwesome;
+    padding-right: 10px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Black outline around letters */
+    border: none;
+}
+
+#email:before {
+    content: "\f0e0"; /* FontAwesome email icon */
     font-family: FontAwesome;
     padding-right: 10px;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Black outline around letters */
