@@ -338,6 +338,10 @@
     border: none;
 }
 
+#contact-info a {
+    color: #00ffae; /* Changed to a stellar color to match astronomy background */
+}
+
 #phone:before {
     content: "\f095";
     font-family: FontAwesome;
